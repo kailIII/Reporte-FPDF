@@ -1,0 +1,16 @@
+.texto-cedula {
+	max-width: 300px;
+}
+
+.error ul {
+	padding: 0 15px;
+}
+
+.error ul li {
+	margin-bottom: 10px;	
+}
+body {
+	
+	font-family: 'Open Sans', sans-serif;
+	background: #fff;
+}
