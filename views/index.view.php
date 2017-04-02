@@ -6,9 +6,9 @@
  
     <div class="col-md-6 col-md-offset-3">
       <h1>Consulta de Estatus de Soporte</h1>
-      <form method="POST" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>">
+      <form method="POST" enctype="multipart/form-data" action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" onsubmit="return valida(this)">
         <div class="form-group">
-          <input type="text" class="form-control texto-cedula" id="exampleInputEmail1" name="cedula"  placeholder="Escribe tu Cedula">
+          <input type="text" class="form-control texto-cedula" id="exampleInputEmail1" name="cedula"  placeholder="Escribe tu Cedula" required>
         </div>
           <?php if(!empty($errores)): ?>
             <div class="error">
